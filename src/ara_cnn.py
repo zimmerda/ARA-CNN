@@ -3,6 +3,7 @@
 import os
 import logging
 import argparse
+import keras
 
 from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, TensorBoard, Callback
 from keras.layers import Input, GlobalAveragePooling2D, add, AveragePooling2D, Dense, Dropout
